@@ -1,0 +1,88 @@
+/* General styles */
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  background-color: #887e7e63; /* Light gray background */
+}
+
+a {
+  text-decoration: underline;
+  color: #fdfafa;
+  display: inline;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 960px; /* Control overall width */
+  margin: 0 auto; /* Center content */
+  padding: 20px;
+}
+
+/* Header styles */
+header {
+  background-color: #333; /* Dark header background */
+  color: #fff; /* White text in header */
+  padding: 20px;
+}
+
+.logo img {
+  height: 50px; /* Maintain aspect ratio for logo */
+}
+
+nav a {
+  margin-right: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: #ccc;
+  color: #333;
+}
+
+/* Hero section styles */
+.hero {
+  background-color: #fff; /* White background for hero section */
+  padding: 50px;
+  text-align: center;
+}
+
+.hero img {
+  width: 300px; /* Adjust image size as needed */
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero h1 span {
+  color: #333;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.skills{
+    display: inline;
+    justify-content: space-between;
+    border-radius: 20px;
+}
